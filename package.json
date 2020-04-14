@@ -11,7 +11,11 @@
         "nodemon": "^2.0.2"
     },
     "dependencies": {
+        "express": "^4.17.1",
+        "faker": "^4.1.0",
+        "helmet": "^3.22.0",
         "knex": "^0.20.14",
+        "logger": "0.0.1",
         "sqlite3": "^4.1.1"
     }
 }
