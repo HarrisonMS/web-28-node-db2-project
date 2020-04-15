@@ -7,13 +7,13 @@ exports.seed = function (knex, Promise) {
       const cars = []
       for (let index = 0; index < dataLength; index++) {
         cars.push({
-          VIN: faker.random.uuid(),
+          VIN: faker.finance.account(),
           make: faker.name.firstName(),
           model: faker.random.number(),
           year: faker.random.number(),
           mileage: faker.random.number(),
-          transmission: faker.database.type(),
-          title_status: faker.lorem.word()
+          transmission: faker.hacker.verb(),
+          title_status: faker.hacker.noun()
 
         })
       }
